@@ -1,0 +1,42 @@
+{
+  "name": "MarketPlace-BACKEND",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reniejr/MarketPlace-BACKEND.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Reniejr/MarketPlace-BACKEND/issues"
+  },
+  "homepage": "https://github.com/Reniejr/MarketPlace-BACKEND#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-list-endpoints": "^5.0.0",
+    "express-validator": "^6.8.0",
+    "fs-extra": "^9.0.1",
+    "multer": "^1.4.2",
+    "uniqid": "^5.2.0",
+    "uuid": "^8.3.2",
+    "@sendgrid/mail": "^7.4.0",
+    "cloudinary": "^1.23.0",
+    "json2csv": "^5.0.5",
+    "klaw": "^3.0.0",
+    "mailgun-js": "^0.22.0",
+    "multer-storage-cloudinary": "^4.0.0",
+    "mongoose": "^5.11.11",
+    "query-to-mongo": "^0.10.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6"
+  }
+}
